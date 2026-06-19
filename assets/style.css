@@ -193,6 +193,13 @@ body {
   justify-content: space-between;
   z-index: 1;
 }
+.service__price p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  line-height: 1.2;
+}
 
 #contact {
   margin: auto;
@@ -297,7 +304,6 @@ input[type="submit"] {
   .service__description {
     margin-bottom: 1em;
   }
-
   #services .container::before {
     width: 30%;
     height: 100%;
